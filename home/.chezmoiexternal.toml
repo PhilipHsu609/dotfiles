@@ -56,5 +56,16 @@
 [".local/share/man/man1/tldr.1"]
     type = "archive-file"
     url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
-    executable = true
     path = "tldr.1"
+
+[".local/bin/bat"]
+    type = "archive-file"
+    url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
+    stripComponents = 1
+    path = "bat"
+
+[".local/share/man/man1/bat.1"]
+    type = "archive-file"
+    url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
+    stripComponents = 1
+    path = "bat.1"

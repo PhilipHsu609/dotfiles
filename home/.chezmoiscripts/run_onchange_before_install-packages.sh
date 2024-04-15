@@ -2,8 +2,6 @@
 
 packages=(
     "zsh"
-    "bat"
-    "git"
     "curl"
 )
 
