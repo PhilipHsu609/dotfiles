@@ -93,3 +93,14 @@
     url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
     stripComponents = 1
     path = "fd.1"
+
+[".local/bin/zoxide"]
+    type = "archive-file"
+    url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
+    executable = true
+    path = "zoxide"
+
+[".local/share/man/man1"]
+    type = "archive-file"
+    url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
+    path = "man/man1/*"
