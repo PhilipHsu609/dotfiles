@@ -1,0 +1,13 @@
+# Limit search counts
+--max-count=40
+--max-columns-preview
+
+# Search hidden files / directories
+--hidden
+
+# Ignore cases unless all caps
+--smart-case
+
+# Do not search git files
+--glob
+!.git/*
