@@ -108,10 +108,12 @@
 [".local/bin/rg"]
     type = "archive-file"
     url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
+    stripComponents = 1
     executable = true
     path = "rg"
 
 [".local/share/man/man1/rg.1"]
     type = "archive-file"
     url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
+    stripComponents = 1
     path = "doc/rg.1"
