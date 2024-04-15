@@ -61,6 +61,7 @@
 [".local/bin/bat"]
     type = "archive-file"
     url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
+    executable = true
     stripComponents = 1
     path = "bat"
 
@@ -69,3 +70,13 @@
     url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
     stripComponents = 1
     path = "bat.1"
+
+[".local/bin/fzf"]
+    type = "archive-file"
+    url = "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz"
+    executable = true
+    path = "fzf"
+
+[".local/share/man/man1/fzf.1"]
+    type = "file"
+    url = "https://raw.githubusercontent.com/junegunn/fzf/master/man/man1/fzf.1"
