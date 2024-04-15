@@ -80,3 +80,16 @@
 [".local/share/man/man1/fzf.1"]
     type = "file"
     url = "https://raw.githubusercontent.com/junegunn/fzf/master/man/man1/fzf.1"
+
+[".local/bin/fd"]
+    type = "archive-file"
+    url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
+    executable = true
+    stripComponents = 1
+    path = "fd"
+
+[".local/share/man/man1/fd.1"]
+    type = "archive-file"
+    url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
+    stripComponents = 1
+    path = "fd.1"
