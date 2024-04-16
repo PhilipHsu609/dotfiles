@@ -3,6 +3,7 @@
 packages=(
     "zsh"
     "curl"
+    "binutils"
 )
 
 sudo apt-get update
