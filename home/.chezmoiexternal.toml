@@ -1,119 +1,123 @@
 [".oh-my-zsh"]
-    type = "archive"
-    url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".config/zsh/plugins/zsh-syntax-highlighting"]
-    type = "archive"
-    url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".config/zsh/plugins/zsh-completions"]
-    type = "archive"
-    url = "https://github.com/zsh-users/zsh-completions/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/zsh-users/zsh-completions/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".config/zsh/plugins/zsh-autosuggestions"]
-    type = "archive"
-    url = "https://github.com/zsh-users/zsh-autosuggestions/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/zsh-users/zsh-autosuggestions/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".config/zsh/plugins/zsh-autopair"]
-    type = "archive"
-    url = "https://github.com/hlissner/zsh-autopair/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/hlissner/zsh-autopair/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".config/zsh/plugins/zhooks"]
-    type = "archive"
-    url = "https://github.com/agkozak/zhooks/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/agkozak/zhooks/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".config/zsh/plugins/fast-syntax-highlighting"]
-    type = "archive"
-    url = "https://github.com/zdharma-continuum/fast-syntax-highlighting/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
+type = "archive"
+url = "https://github.com/zdharma-continuum/fast-syntax-highlighting/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
 
 [".local/bin/tldr"]
-    type = "archive-file"
-    url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
-    executable = true
-    path = "tldr"
+type = "archive-file"
+url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
+executable = true
+path = "tldr"
 
 [".local/share/man/man1/tldr.1"]
-    type = "archive-file"
-    url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
-    path = "tldr.1"
+type = "archive-file"
+url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
+path = "tldr.1"
 
 [".local/bin/bat"]
-    type = "archive-file"
-    url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
-    executable = true
-    stripComponents = 1
-    path = "bat"
+type = "archive-file"
+url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
+executable = true
+stripComponents = 1
+path = "bat"
 
 [".local/share/man/man1/bat.1"]
-    type = "archive-file"
-    url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
-    stripComponents = 1
-    path = "bat.1"
+type = "archive-file"
+url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
+stripComponents = 1
+path = "bat.1"
 
 [".local/bin/fzf"]
-    type = "archive-file"
-    url = "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz"
-    executable = true
-    path = "fzf"
+type = "archive-file"
+url = "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz"
+executable = true
+path = "fzf"
 
 [".local/share/man/man1/fzf.1"]
-    type = "file"
-    url = "https://raw.githubusercontent.com/junegunn/fzf/master/man/man1/fzf.1"
+type = "file"
+url = "https://raw.githubusercontent.com/junegunn/fzf/master/man/man1/fzf.1"
 
 [".local/bin/fd"]
-    type = "archive-file"
-    url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
-    executable = true
-    stripComponents = 1
-    path = "fd"
+type = "archive-file"
+url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
+executable = true
+stripComponents = 1
+path = "fd"
 
 [".local/share/man/man1/fd.1"]
-    type = "archive-file"
-    url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
-    stripComponents = 1
-    path = "fd.1"
+type = "archive-file"
+url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
+stripComponents = 1
+path = "fd.1"
 
 [".local/bin/zoxide"]
-    type = "archive-file"
-    url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
-    executable = true
-    path = "zoxide"
+type = "archive-file"
+url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
+executable = true
+path = "zoxide"
 
 [".local/share"]
-    type = "archive"
-    url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
-    include = ["man/man1/*"]
+type = "archive"
+url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
+include = ["man/man1/*"]
 
 [".local/bin/rg"]
-    type = "archive-file"
-    url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
-    stripComponents = 1
-    executable = true
-    path = "rg"
+type = "archive-file"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
+stripComponents = 1
+executable = true
+path = "rg"
 
 [".local/share/man/man1/rg.1"]
-    type = "archive-file"
-    url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
-    stripComponents = 1
-    path = "doc/rg.1"
+type = "archive-file"
+url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
+stripComponents = 1
+path = "doc/rg.1"
+
+[".gdbinit-gef.py"]
+type = "file"
+url = "https://raw.githubusercontent.com/hugsy/gef/main/gef.py"

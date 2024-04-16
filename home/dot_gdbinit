@@ -1,0 +1,12 @@
+set disassembly-flavor intel
+
+source ~/.gdbinit-gef.py
+
+define redir
+    if $argc == 0
+        gef config context.redirect /dev/pts/1
+    else
+        gef config context.redirect /dev/pts/$arg0
+    end
+end
+
