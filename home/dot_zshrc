@@ -6,7 +6,7 @@ export ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump-${HOST/.*/}-${ZSH_VERSION}"
 
 zstyle ':omz:update' mode disabled
 
-ZSH_THEME="eastwood"
+ZSH_THEME=""
 
 plugins=(
     git

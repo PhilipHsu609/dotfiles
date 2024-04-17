@@ -31,3 +31,9 @@ unset __conda_setup
 if [ -f "{{- .miniforge_prefix -}}/etc/profile.d/mamba.sh" ]; then
     . "{{- .miniforge_prefix -}}/etc/profile.d/mamba.sh"
 fi
+
+# Setup starship
+# --------------
+if command -v starship > /dev/null 2>&1; then
+    eval "$(starship init zsh)"
+fi
