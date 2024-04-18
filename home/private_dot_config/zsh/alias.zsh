@@ -8,7 +8,7 @@ alias la=' ls -A'
 alias l=' ls -F'
 
 alias e=' eza --all'
-alias el=' eza --long --all --group-directories-first --time-style=long-iso'
+alias el=' eza --long --all --header --group-directories-first --time-style=long-iso'
 
 alias cz='chezmoi'
 alias mbd='mamba deactivate'
