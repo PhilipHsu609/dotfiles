@@ -4,6 +4,7 @@ packages=(
     "zsh"
     "curl"
     "binutils"
+    "build-essential"
 )
 
 sudo apt-get update

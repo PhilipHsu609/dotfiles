@@ -1,5 +1,8 @@
 {{- $miniforge_prefix := printf "%s/%s" .chezmoi.homeDir "miniforge3" -}}
 
 [data]
-    email="mpyhacct118113@gmail.com"
-    miniforge_prefix={{- $miniforge_prefix | quote }}
+email = "mpyhacct118113@gmail.com"
+miniforge_prefix = {{- $miniforge_prefix | quote }}
+
+[diff]
+pager = "delta"

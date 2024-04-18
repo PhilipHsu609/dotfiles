@@ -77,6 +77,11 @@ url = "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux
 executable = true
 path = "fzf"
 
+[".local/bin/fzf-tmux"]
+type = "file"
+url = "https://raw.githubusercontent.com/junegunn/fzf/master/bin/fzf-tmux"
+executable = true
+
 [".local/share/man/man1/fzf.1"]
 type = "file"
 url = "https://raw.githubusercontent.com/junegunn/fzf/master/man/man1/fzf.1"
@@ -133,3 +138,10 @@ type = "archive-file"
 url = "https://github.com/eza-community/eza/releases/download/v0.18.10/eza_x86_64-unknown-linux-gnu.tar.gz"
 executable = true
 path = "./eza"
+
+[".local/bin/delta"]
+type = "archive-file"
+url = "https://github.com/dandavison/delta/releases/download/0.17.0/delta-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
+stripComponents = 1
+executable = true
+path = "delta"

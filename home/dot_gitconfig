@@ -1,0 +1,25 @@
+[user]
+	email = mpyhacct118113@gmail.com
+	name = PhilipHsu609
+
+[alias]
+	adog = log --all --decorate --oneline --graph
+
+[credential]
+	helper = store
+
+[core]
+	pager = delta
+	editor = vim
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+
+[merge]
+	conflictStyle = diff3
+
+[diff]
+	colorMoved = default
