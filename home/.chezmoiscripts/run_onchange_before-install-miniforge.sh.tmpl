@@ -1,5 +1,7 @@
 #!/bin/bash
 
-wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh" -O /tmp/miniforge.sh
-bash /tmp/miniforge.sh -b -s -f -p {{- .miniforge_prefix }}
-rm /tmp/miniforge.sh
+if [ ! -d "{{ .miniforge_prefix }}" ]; then
+    wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh" -O /tmp/miniforge.sh
+    bash /tmp/miniforge.sh -b -s -f -p {{ .miniforge_prefix }}
+    rm /tmp/miniforge.sh
+fi

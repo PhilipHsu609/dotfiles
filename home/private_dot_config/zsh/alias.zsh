@@ -7,7 +7,7 @@ alias ll=' ls -alFh'
 alias la=' ls -A'
 alias l=' ls -F'
 
-alias e=' eza --all'
+alias e=' eza'
 alias el=' eza --long --all --header --group-directories-first --time-style=long-iso'
 
 alias cz='chezmoi'
