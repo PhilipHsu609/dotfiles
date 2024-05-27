@@ -1,0 +1,17 @@
+#!/bin/bash
+
+[[ ! -d "/home/linuxbrew" ]] && curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+
+packages=(
+    "bat"
+    "git-delta"
+    "eza"
+    "fd"
+    "fzf"
+    "ripgrep"
+    "starship"
+    "tlrc"
+    "zoxide"
+)
+
+{{ .brew_path }} install "${packages[@]}"

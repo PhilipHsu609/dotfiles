@@ -4,6 +4,7 @@ url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
 exact = true
 stripComponents = 1
 refreshPeriod = "168h"
+exclude = ["*/.*", "*/templates", "*/themes"]
 
 [".config/zsh/plugins/zsh-syntax-highlighting"]
 type = "archive"
@@ -47,101 +48,14 @@ exact = true
 stripComponents = 1
 refreshPeriod = "168h"
 
-[".local/bin/tldr"]
-type = "archive-file"
-url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
-executable = true
-path = "tldr"
-
-[".local/share/man/man1/tldr.1"]
-type = "archive-file"
-url = "https://github.com/tldr-pages/tlrc/releases/download/v1.9.1/tlrc-v1.9.1-x86_64-unknown-linux-gnu.tar.gz"
-path = "tldr.1"
-
-[".local/bin/bat"]
-type = "archive-file"
-url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
-executable = true
-stripComponents = 1
-path = "bat"
-
-[".local/share/man/man1/bat.1"]
-type = "archive-file"
-url = "https://github.com/sharkdp/bat/releases/download/v0.24.0/bat-v0.24.0-x86_64-unknown-linux-gnu.tar.gz"
-stripComponents = 1
-path = "bat.1"
-
-[".local/bin/fzf"]
-type = "archive-file"
-url = "https://github.com/junegunn/fzf/releases/download/0.50.0/fzf-0.50.0-linux_amd64.tar.gz"
-executable = true
-path = "fzf"
-
-[".local/bin/fzf-tmux"]
-type = "file"
-url = "https://raw.githubusercontent.com/junegunn/fzf/master/bin/fzf-tmux"
-executable = true
-
-[".local/share/man/man1/fzf.1"]
-type = "file"
-url = "https://raw.githubusercontent.com/junegunn/fzf/master/man/man1/fzf.1"
-
-[".local/bin/fd"]
-type = "archive-file"
-url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
-executable = true
-stripComponents = 1
-path = "fd"
-
-[".local/share/man/man1/fd.1"]
-type = "archive-file"
-url = "https://github.com/sharkdp/fd/releases/download/v9.0.0/fd-v9.0.0-x86_64-unknown-linux-gnu.tar.gz"
-stripComponents = 1
-path = "fd.1"
-
-[".local/bin/zoxide"]
-type = "archive-file"
-url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
-executable = true
-path = "zoxide"
-
-[".local/share"]
-type = "archive"
-url = "https://github.com/ajeetdsouza/zoxide/releases/download/v0.9.4/zoxide-0.9.4-x86_64-unknown-linux-musl.tar.gz"
-include = ["man/man1/*"]
-
-[".local/bin/rg"]
-type = "archive-file"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
-stripComponents = 1
-executable = true
-path = "rg"
-
-[".local/share/man/man1/rg.1"]
-type = "archive-file"
-url = "https://github.com/BurntSushi/ripgrep/releases/download/14.1.0/ripgrep-14.1.0-x86_64-unknown-linux-musl.tar.gz"
-stripComponents = 1
-path = "doc/rg.1"
-
 [".gdbinit-gef.py"]
 type = "file"
 url = "https://raw.githubusercontent.com/hugsy/gef/main/gef.py"
 
-[".local/bin/starship"]
-type = "archive-file"
-url = "https://github.com/starship/starship/releases/download/v1.18.2/starship-x86_64-unknown-linux-gnu.tar.gz"
-executable = true
-path = "starship"
+[".config/bat/themes/Catppuccin Macchiato.tmTheme"]
+type = "file"
+url = "https://github.com/catppuccin/bat/raw/main/themes/Catppuccin%20Macchiato.tmTheme"
 
-[".local/bin/eza"]
-type = "archive-file"
-url = "https://github.com/eza-community/eza/releases/download/v0.18.10/eza_x86_64-unknown-linux-gnu.tar.gz"
-executable = true
-path = "./eza"
-
-[".local/bin/delta"]
-type = "archive-file"
-url = "https://github.com/dandavison/delta/releases/download/0.17.0/delta-0.17.0-x86_64-unknown-linux-gnu.tar.gz"
-stripComponents = 1
-executable = true
-path = "delta"
+[".config/git/catppuccin.gitconfig"]
+type = "file"
+url = "https://raw.githubusercontent.com/catppuccin/delta/main/catppuccin.gitconfig"

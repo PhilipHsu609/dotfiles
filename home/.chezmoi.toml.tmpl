@@ -1,8 +1,14 @@
+{{- $brew_path := "/home/linuxbrew/.linuxbrew/bin/brew" -}}
+{{- if eq .chezmoi.os "darwin" -}}
+{{- $brew_path = "/opt/homebrew/bin/brew" -}}
+{{- end -}}
+
 {{- $miniforge_prefix := printf "%s/%s" .chezmoi.homeDir "miniforge3" -}}
 
 [data]
 email = "mpyhacct118113@gmail.com"
-miniforge_prefix = {{- $miniforge_prefix | quote }}
+miniforge_prefix = {{ $miniforge_prefix | quote }}
+brew_path = {{ $brew_path | quote }}
 
 [diff]
 pager = "delta"

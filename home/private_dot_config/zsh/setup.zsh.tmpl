@@ -2,6 +2,10 @@
 # -------------------
 [[ -f "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
 
+# Setup brew
+# ----------
+[[ -f "{{- .brew_path -}}" ]] && eval "$("{{- .brew_path -}}" shellenv)"
+
 # Setup fzf
 # ---------
 if command -v fzf > /dev/null 2>&1; then
