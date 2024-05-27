@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[[ ! -d "/home/linuxbrew" ]] && curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+[[ ! -d "/home/linuxbrew" ]] && /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 packages=(
     "bat"
