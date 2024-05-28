@@ -21,6 +21,7 @@ export FZF_DEFAULT_OPTS="--no-mouse --height 50% --layout=reverse --border --ans
 # bat
 export BAT_THEME='Catppuccin Macchiato'
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANROFFOPT="-c"
 
 # ripgrep
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
