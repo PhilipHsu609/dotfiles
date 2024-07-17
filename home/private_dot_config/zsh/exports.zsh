@@ -3,11 +3,9 @@ export HISTFILE="$HOME/.zsh_history"
 export HISTSIZE=50000
 export SAVEHIST=10000
 
-export EDITOR='vim'
+export EDITOR='nvim'
 
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0      # GWSL
-export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') # GWSL
-
+export PATH="/snap/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 # fzf
