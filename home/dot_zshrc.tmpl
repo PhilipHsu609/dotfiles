@@ -3,7 +3,6 @@ export ZSH="$HOME/.oh-my-zsh"
 export ZSH_CUSTOM="$HOME/.config/zsh"
 export ZSH_CACHE_DIR="$HOME/.cache/zsh"
 export ZSH_COMPDUMP="$ZSH_CACHE_DIR/.zcompdump-${HOST/.*/}-${ZSH_VERSION}"
-export fpath=("$({{ .brew_path }} --prefix)/share/zsh/site-functions" $fpath)
 
 zstyle ':omz:update' mode disabled
 

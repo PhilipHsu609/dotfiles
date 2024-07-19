@@ -1,0 +1,31 @@
+#!/bin/bash
+
+set -eufo pipefail
+
+{{ $brews := list
+    "bat"
+    "btop"
+    "cmake"
+    "git-delta"
+    "eza"
+    "fd"
+    "fzf"
+    "ripgrep"
+    "starship"
+    "tlrc"
+    "wget"
+    "zoxide" -}}
+
+{{ $casks := list
+    "iterm2"
+    "spotify"
+    "visual-studio-code" -}}
+
+brew bundle --no-lock --file=/dev/stdin <<EOF
+{{ range ($brews | sortAlpha | uniq) -}}
+brew "{{ . }}"
+{{ end -}}
+{{ range ($casks | sortAlpha | uniq) -}}
+cask "{{ . }}"
+{{ end -}}
+EOF
