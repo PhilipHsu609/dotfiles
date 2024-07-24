@@ -6,6 +6,7 @@ set -eufo pipefail
     "bat"
     "btop"
     "cmake"
+    "pkg-config"
     "git-delta"
     "eza"
     "fd"
@@ -17,8 +18,10 @@ set -eufo pipefail
     "zoxide" -}}
 
 {{ $casks := list
+    "bitwarden"
     "iterm2"
     "spotify"
+    "microsoft-edge"
     "visual-studio-code" -}}
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
