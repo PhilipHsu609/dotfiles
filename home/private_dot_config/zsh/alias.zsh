@@ -2,8 +2,8 @@
 alias pwd=' pwd'
 alias clear=' clear'
 
-alias l=' eza'
-alias ls=' eza --long --all --header --group-directories-first --time-style=long-iso'
+alias ls=' eza'
+alias ll=' eza --long --all --header --group-directories-first --time-style=long-iso'
 
 alias cz='chezmoi'
 alias mbd='mamba deactivate'
