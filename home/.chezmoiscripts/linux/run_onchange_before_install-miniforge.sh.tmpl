@@ -1,3 +1,4 @@
+{{- if (not .ephemeral) -}}
 #!/bin/bash
 
 if [ ! -d "{{ .miniforge_prefix }}" ]; then
@@ -5,3 +6,4 @@ if [ ! -d "{{ .miniforge_prefix }}" ]; then
     bash /tmp/miniforge.sh -b -s -f -p {{ .miniforge_prefix }}
     rm /tmp/miniforge.sh
 fi
+{{- end -}}
