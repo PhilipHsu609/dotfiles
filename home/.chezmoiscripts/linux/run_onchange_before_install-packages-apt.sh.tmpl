@@ -6,7 +6,6 @@ packages=(
     "build-essential"
     "gdb"
     "pkg-config"
-    "snapd"
     "unzip"
     "zip"
     "zsh"
@@ -14,11 +13,3 @@ packages=(
 
 sudo apt-get update
 sudo apt-get install -y "${packages[@]}"
-
-{{ $classicSnaps := list
-    "cmake"
-    "nvim" -}}
-
-{{ range $classicSnaps }}
-(snap info {{ . }} | grep -q ^installed:) || sudo snap install --classic {{ . }}
-{{   end }}
