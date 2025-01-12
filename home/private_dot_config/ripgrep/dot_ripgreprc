@@ -1,5 +1,5 @@
 # Limit search counts
---max-count=40
+# --max-count=40
 --max-columns-preview
 
 # Search hidden files / directories
