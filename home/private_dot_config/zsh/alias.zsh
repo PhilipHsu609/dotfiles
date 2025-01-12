@@ -8,3 +8,5 @@ alias ll=' eza --long --all --header --group-directories-first --time-style=long
 alias cz='chezmoi'
 alias mbd='mamba deactivate'
 alias mba='mamba activate'
+
+alias lg='lazygit'
