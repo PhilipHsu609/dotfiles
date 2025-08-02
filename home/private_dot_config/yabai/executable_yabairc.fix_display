@@ -1,4 +1,4 @@
 yabai -m window $(yabai -m query --windows | jq '.[] | select(.app == "Code") | .id') --space 4
 yabai -m window $(yabai -m query --windows | jq '.[] | select(.app == "Safari") | .id') --space 5
 yabai -m window $(yabai -m query --windows | jq '.[] | select(.app == "Firefox") | .id') --space 5
-
+yabai -m window $(yabai -m query --windows | jq '.[] | select(.app == "Microsoft Edge") | .id') --space 5
