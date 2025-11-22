@@ -27,7 +27,7 @@ set -eufo pipefail
     "microsoft-edge"
     "visual-studio-code" -}}
 
-brew bundle --no-upgrade <<EOF
+brew bundle --no-upgrade --file=/dev/stdin <<EOF
 {{ range ($brews | sortAlpha | uniq) -}}
 brew "{{ . }}"
 {{ end -}}
