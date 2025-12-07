@@ -6,3 +6,7 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
+
+function claude() {
+	SHELL=/bin/bash command claude "$@"
+}
