@@ -10,8 +10,8 @@ FZF_COLOR='bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8,fg:#cdd6f4,header:#
 FZF_SHARED_OPTS="--no-mouse --height 80% --layout=reverse --border --ansi --color='$FZF_COLOR'"
 
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git --strip-cwd-prefix'
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_ALT_C_COMMAND="fd --type d --hidden --exclude .git --strip-cwd-prefix"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 export FZF_CTRL_T_OPTS="$FZF_SHARED_OPTS --preview 'fzf-preview.sh {}'"
 export FZF_CTRL_R_OPTS="$FZF_SHARED_OPTS"
@@ -24,9 +24,6 @@ export MANROFFOPT="-c"
 
 # ripgrep
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
-
-# vcpkg
-export VCPKG_ROOT="$HOME/package/vcpkg"
 
 # PATH
 {{- if eq .chezmoi.os "linux" }}
